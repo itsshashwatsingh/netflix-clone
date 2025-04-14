@@ -1,0 +1,382 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: black;
+}
+/*background*/
+
+.main {
+  background-image: url("bg.jpg");
+  background-position: center center;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  height: 624px;
+  position: relative;
+}
+
+.main .box {
+  height: 624px;
+  width: 100%;
+  opacity: 0.7;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+/*nav*/
+.nav {
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding-left: 62px;
+  padding-right: 62px;
+}
+img {
+  width: 170px;
+  position: relative;
+  z-index: 10;
+}
+.nav .button {
+  position: relative;
+  z-index: 10;
+}
+/*hero*/
+
+.hero {
+  font-family: "Martel Sans", sans-serif;
+  height: calc(100% - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 23px;
+  padding: 0 30px;
+}
+
+.hero > :nth-child(1) {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 48px;
+  text-align: center;
+}
+
+.hero > :nth-child(2) {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+
+.hero > :nth-child(3) {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+.seperation {
+  height: 7px;
+  background-color: rgb(46, 44, 44);
+  position: relative;
+  z-index: 20;
+}
+
+.btn {
+  padding: 9px 20px;
+  font-weight: bold;
+  background-color: rgba(23, 20, 20, 0.236);
+  color: white;
+  z-index: 3;
+  position: relative;
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+.redbtn {
+  background-color: red;
+  color: white;
+  font-size: 1.1rem;
+  border: 2px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.redbtn2 {
+  background-color: red;
+  color: white;
+  font-size: 0.8rem;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.search {
+  color: white;
+  padding: 12px 90px 12px 8px;
+  font-size: 1rem;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.599);
+  border: 2px solid rgba(255, 255, 255, 0.212);
+  z-index: 3;
+}
+.get-started {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 15px;
+}
+.search::placeholder {
+  color: rgba(255, 255, 255, 0.811);
+}
+
+.eng {
+  font-size: 0.9rem;
+
+  border: 2px solid rgba(255, 255, 255, 0.212);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.first {
+  display: flex;
+  height: 600px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 60vw;
+  margin: auto;
+  color: white;
+  padding-bottom: 100px;
+}
+.img1 {
+  width: 555px;
+  position: absolute;
+  z-index: 3;
+}
+.secimg {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.vd {
+  width: 500px;
+  position: relative;
+  top: 60px;
+  left: 54px;
+}
+section.first > .text {
+  display: flex;
+  flex-direction: column;
+  font-family: "Martel Sans", sans-serif;
+}
+
+.first > div :first-child {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.first > div :nth-child(2) {
+  font-size: 24px;
+}
+
+section.second > div {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 20px;
+}
+
+.img2 {
+  position: relative;
+}
+
+.img3 {
+  width: 576px;
+}
+.vd1 {
+  width: 364px;
+  position: relative;
+  top: 29px;
+  left: 100px;
+}
+.img4 {
+  position: relative;
+}
+
+.faq h2 {
+  text-align: center;
+  font-size: 48px;
+}
+
+.faq {
+  background: black;
+  color: white;
+  padding: 34px;
+  font-family: "Martel Sans", sans-serif;
+}
+
+.faqbox:hover {
+  background-color: rgb(63, 60, 60);
+}
+
+.faqbox {
+  transition: all 1s ease-out;
+  border-radius: 15px;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(42, 40, 40, 0.775);
+  padding: 14px;
+  max-width: 75vw;
+  margin: 9px auto;
+  cursor: pointer;
+}
+.faqbox > svg {
+  color: white;
+}
+
+.two {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.two > div {
+  display: flex;
+  flex-direction: row;
+
+  gap: 5px;
+}
+
+footer {
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 180px;
+  font-family: "Martel Sans", sans-serif;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 45px;
+  max-width: 60vw;
+}
+
+.footer > div {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+.footer a {
+  flex-direction: column;
+  color: rgba(255, 255, 255, 0.671);
+  font-size: 14px;
+}
+footer a {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.671);
+}
+
+@media screen and (max-width: 1300px) {
+  .first {
+    flex-wrap: wrap;
+    height: 750px;
+  }
+
+  .hero > :nth-child(1) {
+    font-size: 32px;
+  }
+
+  .hero > :nth-child(2) {
+    font-size: 18px;
+  }
+
+  .hero > :nth-child(3) {
+    font-size: 18px;
+  }
+
+  .hero .get-started {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .faq h2 {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  footer {
+    max-width: 90vw;
+    padding: 75px 0;
+  }
+
+  .footer > div {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+}
+
+.footer a {
+  font-size: 14px;
+  color: white;
+}
+
+.footer > div {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+@media screen and (max-width: 850px) {
+  body {
+    width: 850px;
+  }
+
+  .main {
+    background-size: max(1105px, 82vw);
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .main {
+    background-size: max(1105px, 82vw);
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .img1 {
+    width: 440px;
+  }
+  .first {
+    height: 750px;
+  }
+  .secimage .vd {
+    width: 380px;
+  }
+  .secimage .vd1 {
+    width: 256px;
+  }
+}
