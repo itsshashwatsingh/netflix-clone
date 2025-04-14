@@ -1,6 +1,5 @@
 
 
-##  Netflix Frontend Clone (Responsive)
 
 
 # 🎬 Netflix Front Page Clone (HTML & CSS)
